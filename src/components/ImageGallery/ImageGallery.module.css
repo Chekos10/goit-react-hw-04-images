@@ -1,0 +1,10 @@
+.gallery{
+    padding-left: 15px ;
+    padding-right: 15px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+    justify-content: center;
+}

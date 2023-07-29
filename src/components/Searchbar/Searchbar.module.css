@@ -1,0 +1,18 @@
+.searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(51, 61, 159);
+    box-shadow: 0px 7px 5px 0px rgba(117,117,117,1);
+}
+.button{
+    padding: 10px;
+    background-color: aliceblue;
+    border: 1px solid antiquewhite;
+    
+}
+.input{
+    padding: 10px;
+    border: 1px solid antiquewhite;
+}
