@@ -7,10 +7,12 @@ export const Searchbar = ({hendleSearch}) =>{
     const handleChange=(event)=>{
         setValue(event.target.value)
     }
+
     const handleSubmit=(event)=>{
         event.preventDefault()
         hendleSearch(value)
     }
+    
     return (
         <header className={css.searchbar}>
             <form className="form" onSubmit={handleSubmit}>
