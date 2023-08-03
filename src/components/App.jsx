@@ -16,8 +16,8 @@ export const App = () => {
   const [totalImages, setTotalImages] = useState(0);
 
   useEffect(() => {
+    if(!searchImg) return;
     const fetchPostData = async () => {
-      if(!searchImg) return
       try {
         setIsLoading(true);
         const data = await getImg(searchImg, page);
